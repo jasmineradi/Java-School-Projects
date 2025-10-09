@@ -8,9 +8,9 @@ public class PersonalInfoDemo
         PersonalInfo friend; //to reference a PersonalInfo object for friend info
         PersonalInfo family; //to reference a PersonalInfo object for family info
 
-        me = new PersonalInfo("Jasmine", "1542 9th Avenue South, Fargo, ND 58103", 33, "701-715-5453");
-        friend = new PersonalInfo("Alexis Anderson", "789 Oak Avenue, Fargo, ND 58103", 36, "701-786-5352");
-        family = new PersonalInfo("Tracy Jirout", "545 4th Street South Mayville, ND 58257", 55, "701-388-0675");
+        me = new PersonalInfo("Jasmine", "5555 5th Avenue South, Fargo, ND 58103", 33, "701-555-5553");
+        friend = new PersonalInfo("Alexis Anderson", "789 Oak Avenue, Fargo, ND 58103", 36, "701-555-5552");
+        family = new PersonalInfo("Tracy Jirout", "555 5th Street South Mayville, ND 58257", 55, "701-555-5555");
     
         //This is info about me
         System.out.println("My first name is " + me.getName() + "." +
